@@ -104,3 +104,18 @@ main {
   transform: rotate(-45deg);
   cursor: pointer;
 }
+
+@media (min-width: 769px) {
+  main {
+    width: 748px;
+    height: 667px;
+    background-image: url(images/pattern-bg.svg), url(images/pattern-curve.svg);
+    background-size: 327px, cover;
+    background-position-y: 24px, bottom;
+    background-position-x: center, left;
+    background-repeat: no-repeat, no-repeat;
+    padding: 32px 32px 32px 32px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
